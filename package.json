@@ -1,8 +1,8 @@
 {
   "name": "@source4society/react-loadingindicator-component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Loading indicator component inspired by React-Boilerplate",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "git@github.com:source4societyorg/react-loadingindicator-component.git",
   "author": "Source 4 Society <accounts@source4society.org>",
   "license": "AGPL-3.0",
@@ -48,7 +48,8 @@
   "jest": {
     "coverageReporters": [
       "text",
-      "html"
+      "html",
+      "cobertura"
     ],
     "transform": {
       "^.+\\.js$": "babel-jest"
